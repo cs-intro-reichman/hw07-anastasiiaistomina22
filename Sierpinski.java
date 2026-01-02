@@ -14,7 +14,6 @@ public class Sierpinski {
 		double x3 = 1;
 		double y3 = 0;
 
-
 		StdDraw.line(x1, y1, x3, y3);
 		StdDraw.line(x3, y3, x2, y2);
 		StdDraw.line(x2, y2, x1, y1);

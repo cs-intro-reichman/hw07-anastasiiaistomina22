@@ -11,16 +11,12 @@ public class IsSorted {
         if (n == 0)
             return true;
 
-
         if (n - 1 == i)
             return true;
         if (a[i] <= a[i + 1])
             return isSorted(a, i + 1);
         return false;
 
-        
-            
-        
     }
 
     public static void main(String[] args) {

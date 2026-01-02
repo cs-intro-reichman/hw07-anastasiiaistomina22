@@ -16,6 +16,7 @@ public class IntToBin {
             return toBinary(x / 2) + "0";
         if(x % 2 != 0)
             return toBinary(x / 2) + "1";
+        
         return "";
 
     }    

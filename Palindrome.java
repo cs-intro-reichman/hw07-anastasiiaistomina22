@@ -16,6 +16,7 @@ public class Palindrome {
 		    return false;
 		if(s.charAt(0) == s.charAt(n - 1))
 			return isPalindrome(s.substring(1, n - 1));
+		
 		return true;
     }
 }
