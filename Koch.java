@@ -31,7 +31,7 @@ public class Koch {
 		StdDraw.line(x1, y1, x2, y2);
 
 		if(n == 0)
-			return ;
+			return;
 
 		double x11 = ((x2 - x1) / 3) + x1;
 		double y11 = ((y2 - y1) / 3) + y1;
@@ -68,7 +68,7 @@ public class Koch {
 		double x3 = 0.8;
 		double y3 = 0.24;
 
-		
+
 		curve(n , x2, y2, x1, y1);
 		curve(n , x1, y1, x3, y3);
 		curve(n , x3, y3, x2, y2);

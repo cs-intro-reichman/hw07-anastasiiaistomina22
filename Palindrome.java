@@ -8,15 +8,15 @@ public class Palindrome {
 	/** Checks if the given string is a palindrome. */
 	public static boolean isPalindrome(String s) {
 		int n = s.length();
-		if(n == 0)
-		    return true;
 		if(n == 1)
+		    return true;
+		if(n == 0)
 		    return true;
 		if(s.charAt(0) != s.charAt(n - 1))
 		    return false;
 		if(s.charAt(0) == s.charAt(n - 1))
 			return isPalindrome(s.substring(1, n - 1));
-		
+
 		return true;
     }
 }
